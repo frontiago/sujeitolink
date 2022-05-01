@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #132742;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+button {
+    margin: .5rem 0;
+}
+
+strong {
+    color: rgb(113, 143, 254);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
